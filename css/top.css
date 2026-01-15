@@ -146,7 +146,7 @@ transform: translateX(-50px);
     margin-top: 35px;
 }
 .aboue_btn a{
-    display: flex;
+    display: inline-flex; 
     justify-content: center;
     align-items: center;
     text-decoration: none;
@@ -161,7 +161,9 @@ transform: translateX(-50px);
     background-color: #fff;
     border: solid 2px #1A83B2;
     margin: auto;
-    font-family: Noto Sans Kannada;
+    line-height: 1;          
+    padding: 0;               
+    box-sizing: border-box;
 }
 .aboue_btn a:hover {
     background-color: #1A83B2;
@@ -323,6 +325,7 @@ transform: translateX(-50px);
         font-size: 23px;
         height: 48px;
         width: 136px;
+        line-height: 1;  
     }
     .work{
         padding-top: 90px;
@@ -391,6 +394,7 @@ transform: translateX(-50px);
         font-size: 19px;
         height: 41px;
         width: 113px;
+         line-height: 1;  
     }
     .work{
        padding: 50px 25px 0px 25px;
@@ -468,6 +472,7 @@ transform: translateX(-50px);
         font-size: 19px;
         height: 41px;
         width: 113px;
+         line-height: 1;  
     }
     .work{
        padding: 50px 25px 0px 25px;
