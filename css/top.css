@@ -146,22 +146,22 @@ transform: translateX(-50px);
     margin-top: 35px;
 }
 .aboue_btn a{
-    background-color: #fff;
-    color: #1A83B2;
-    border: solid 2px #1A83B2;
-    margin: 0;
     display: flex;
-    align-items: center;
-    font-family: Noto Sans Kannada;
-    font-weight: bold;
-    font-size: 26px;
-    height: 53px;
-    width: 152px;
-    border-radius: 100vh;
-    text-decoration: none;
-    text-align: center;
     justify-content: center;
-    line-height: 1;
+    align-items: center;
+    text-decoration: none;
+    gap: 15px;
+    color: #1A83B2;
+    width: 152px;
+    height: 53px;
+    font-weight: bold;
+    border-radius: 100vh;
+    transition: 0.5s;
+    font-size: 25px;
+    background-color: #fff;
+    border: solid 2px #1A83B2;
+    margin: auto;
+    font-family: Noto Sans Kannada;
 }
 .aboue_btn a:hover {
     background-color: #1A83B2;
