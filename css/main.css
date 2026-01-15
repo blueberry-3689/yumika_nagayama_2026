@@ -1,0 +1,214 @@
+body{
+margin: 0;
+}
+.main{
+margin: auto;
+}
+.header {
+height: 70px;
+width: 100%;
+background-color: rgba(224, 224, 224, 0.60);
+top: 0;
+left: 0;
+right: 0;
+position: fixed;
+z-index: 9999;
+}
+.header_inner{
+padding: 0 60px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+height: inherit;
+position: relative;
+margin: auto;
+max-width: 1245px;
+}
+/*ヘッダーのロゴ部分*/
+.header_title{
+width: 195px;
+}
+.header_title img{
+display: block;
+width: 32px;
+height: 100%;
+}
+/*ヘッダーのナビ部分*/
+.header_nav{
+position: absolute;
+right: 0;
+left: 0;
+top: 0;
+width: 100%;
+transform: translateX(100%);
+background-color: #fff;
+transition: ease .4s;
+height: 100vh;
+}
+.nav-items {
+position: absolute;
+top: 20%;
+left: 20%;
+transform: translate(-50%, -50%);
+padding: 0;
+}
+/*ハンバーガーメニュー*/
+.header_hamburger{
+width: 48px;
+}
+.hamburger{
+background-color: transparent;
+border-color: transparent;
+z-index: 9999;
+}
+.nav-tiems_item a:hover {
+opacity: 0.5;
+}
+
+/*ハンバーガーメニューの線*/
+.hamburger span{
+width: 100%;
+height: 1px;
+background-color: #1A83B2;
+position: relative;
+transition: ease .4s;
+display: block;
+}
+.hamburger span:nth-child(1){
+top: 0;
+height: 2px;
+}
+.hamburger span:nth-child(2){
+margin: 8px 0;
+height: 1.5px;
+}
+.hamburger span:nth-child(3){
+top: 3;
+}
+/* ハンバーガーメニュークリック後のスタイル */
+.header_nav.active{
+transform: translateX(0);
+}
+.hamburger.active span:nth-child(1){
+top: 5px;
+transform: rotate(45deg);
+}
+.hamburger.active span:nth-child(2){
+opacity: 0;
+}
+.hamburger.active span:nth-child(3){
+top: -13px;
+transform: rotate(-45deg);
+}
+.nav-items{
+padding: 0;
+position: absolute;
+top: 20%;
+left: 20%;
+transform: translate(-50%,-50%);
+}
+.nav-tiems_item  {
+list-style: none;
+padding-bottom: 6px;
+}
+/*ナビのリンク*/
+.nav-tiems_item a{
+width: 100%;
+display: block;
+text-decoration: none;
+text-align: left;
+margin-bottom: 0;
+ color: #1A83B2;
+ font-size: 25px;
+ font-family: Noto Sans Kannada;
+ font-weight: bolder;
+ text-decoration: none;
+}
+
+
+.footer{
+background-image: url(../img/footer_back.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+object-fit: cover;
+height: 105px;
+margin-top: 70px;
+}
+.footer_contact{
+background-image: url(../img/footer_back.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+object-fit: cover;
+height: 105px;
+margin-top: 50px;  
+}
+
+.footer__copyright{
+display: flex;
+justify-content: space-evenly;
+color: #707070;
+font-family: 'Libre Bodoni', serif;
+font-size: 15px;
+font-weight: 300;
+position: relative;
+padding-top: 50px;
+}
+
+
+/*pcヘッダー*/
+@media screen and (min-width: 650px){
+.nav-items {
+position: inherit;
+top: 0;
+left: 0;
+transform: translate(0, 0);
+
+}
+.header_nav{
+position: static;
+transform: initial;
+background-color: inherit;
+height: initial;
+display: flex;
+justify-content: end;
+width: 50%;
+}
+/*pc時のナビゲーションメニュー、横並びにする*/
+.nav_items{
+display: flex;
+align-items: center;
+height: inherit;
+justify-content: space-between;
+gap: 30px;
+position: inherit;
+top: 0;
+left: 0;
+transform: translate(0,0);
+}
+/* ナビのリンク */
+.nav-tiems_item a{
+margin-bottom: 0;
+font-size: 25px;
+}
+/*ハンバーガーメニュー*/
+.hamburger {
+background-color: transparent;
+border-color: transparent;
+z-index: 9999;
+}
+/*ｐｃ時非表示する*/
+.hamburger{
+display: none;
+}
+
+}
+.footer-manu{
+display: none;
+}
+/*サイトを作った目的*/
+.table_content p{
+margin: 0;
+line-height: 1.8rem;
+}

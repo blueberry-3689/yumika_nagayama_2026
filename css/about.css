@@ -1,0 +1,668 @@
+@charset "UTF-8";
+/* CSS Document */
+.main_about{
+    margin: auto;
+    max-width: 1245px;
+}
+/* about 私について */
+.about_content{
+	margin-top: 85px;
+    padding: 0px 60px;
+}
+.about_title_b{
+	display: flex;
+	align-items: center;
+	gap:20px;
+}
+.about_title_b h2{
+	color: #1983B2;
+    font-size: 65px;
+    font-family: Noto Sans Kannada;
+    font-weight: bold;
+    margin: 0;
+}
+.about_title_b h3{
+	color: #707070;
+	font-weight: 500;
+    font-size: 20px;
+    margin: 0;
+    margin-top: 10px;
+}
+.about_my{
+	display: flex;
+    margin-top: 30px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+}
+.about_my img{
+	width: 400px;
+    height: 355px;
+    object-fit: cover;
+}
+.about_pf{
+	color: #4D4D4D;
+}
+.about_pf h2{
+    margin: 0;
+    font-size: 23px;
+    font-weight: 400;
+    color: #707070;
+    font-family: Noto Sans Kannada;
+}
+.about_pf h3{
+	font-size: 47px;
+	margin: 0;
+    color: #333;
+    font-weight: 500;
+}
+.about_pf p{
+	line-height: 28px;
+    font-size: 18px;
+    margin: 0;
+    margin-top: 12px;
+}
+
+/* skill できること*/
+.skill{
+	margin-top: 120px;
+    padding: 0px 60px;
+}
+.skill_title{
+	display: flex;
+	align-items: center;
+	gap:20px;
+}
+.skill_title h2{
+	color: #1983B2;
+    font-size: 65px;
+    font-family: Noto Sans Kannada;
+    font-weight: bold;
+    margin: 0;
+}
+.skill_title h3{
+	color: #707070;
+	font-weight: 500;
+    font-size: 20px;
+    margin: 0;
+    margin-top: 10px;
+}
+.skill_content{
+	margin-top: 50px;
+	color: #4D4D4D;
+}
+.skill_content ul{
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 50px 60px;
+    padding: 0;
+}
+.skill_content ul li{
+    display: flex;
+    align-items: center;
+	gap: 30px;
+    width: 45%;
+}
+.skill_content ul li img{
+    width: 135px;
+    height: 135px;
+    object-fit: cover;
+    filter: drop-shadow(2px 4px 6px black);
+}
+.skill_text h3{
+	font-size: 32px;
+    font-weight: bold;
+	margin: 0;
+}
+.skill_text p{
+	font-size: 17px;
+	font-weight: 400;
+	margin: 0;
+	margin-top: 4px;	
+}
+
+
+/* career 経歴*/
+.career{
+    margin-top: 120px;
+    padding: 0px 60px;
+}
+
+.career_title{
+	display: flex;
+	align-items: center;
+	gap:20px;
+}
+.career_title h2{
+	color: #1983B2;
+    font-size: 65px;
+    font-family: Noto Sans Kannada;
+    font-weight: bold;
+    margin: 0;
+}
+.career_title h3{
+	color: #707070;
+	font-weight: 500;
+    font-size: 20px;
+    margin: 0;
+    margin-top: 10px;
+}
+
+/* career タイムライン */
+.time-schedule {
+  list-style: none;
+  margin-top: 50px;
+  padding: 0;
+  color: #4D4D4D;
+  position: relative;
+}
+
+/*  縦線（全体の背景線） */
+.time-schedule::before {
+  content: "";
+  position: absolute;
+  left: 196px; /* 丸と同じ位置に調整 */
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background-color: #1983B2;
+  z-index: 1;
+}
+
+/*  各行  */
+.time-schedule li {
+  display: flex;
+  align-items: flex-start;
+  gap: 95px;
+  position: relative;
+  margin-bottom: 60px;
+}
+
+/*  年月 */
+.time-schedule span.time {
+    font-size: 36px;
+    font-weight: 500;
+    font-family: Noto Sans Kannada;
+    color: #4D4D4D;
+    width: 150px;
+    text-align: right;
+}
+
+/*  丸 */
+.time-schedule li::before {
+  content: "";
+  position: absolute;
+  left: 190px;
+  top: 16px;
+  width: 16px;
+  height: 16px;
+  background-color: #1983B2;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+/* 内容  */
+.time_cnt h2 {
+    font-size: 26px;
+    font-weight: 500;
+    font-family: Noto Sans Kannada;
+    margin: 0;
+}
+
+.time_cnt p {
+  margin-top: 8px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #4D4D4D;
+}
+
+
+
+
+
+
+
+ /* アニメーション */
+ .fadeIn{
+ opacity: 0;
+ transform: translateY(100px);
+ transition: 0.5s;
+ }
+
+/* deaf 私の耳について*/
+.deaf{
+	margin-top: 120px;
+    padding: 0px 60px;
+}
+.deaf_title{
+	display: flex;
+	align-items: center;
+	gap:20px;
+}
+.deaf_title h2{
+	color: #1983B2;
+    font-size: 65px;
+    font-family: Noto Sans Kannada;
+    font-weight: bold;
+    margin: 0;
+}
+.deaf_title h3{
+	color: #707070;
+	font-weight: 500;
+    font-size: 20px;
+    margin: 0;
+    margin-top: 10px;
+}
+.deaf_my{
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-between;
+  align-items: center;
+  gap:40px;
+}
+.deaf_my img{
+   width: 580px;
+   height: 355px;
+   object-fit: cover;
+}
+.deaf_my p{
+    line-height: 36px;
+    font-size: 20px;
+    color: #4D4D4D;
+}
+/* コミュニケーション　*/
+.comm{
+	margin-top: 80px;
+}
+.comm h2{
+    color: #4D4D4D;
+    font-size: 45px;
+    font-family: Noto Sans Kannada;
+    font-weight: bold;
+    margin: 0;
+}
+.comm_method{
+	display: flex;
+	align-items: baseline;
+	justify-content: center;
+	gap:45px;
+    margin-top: 50px;
+}
+.comm_method h3{
+   text-align: center;
+   color: #1983B2;
+   font-size: 30px;
+   font-weight: bold;
+    margin: 0;
+}
+.comm_method ul {
+	padding: 0;
+}
+.comm_method ul li{
+	list-style: none;
+}
+
+.comm_method img{
+    width: 300px;
+    height: 290px;
+    object-fit: scale-down;
+}
+.comm_method ul li p{
+    font-size: 17px;
+    font-weight: 400;
+    margin: 0;
+    margin-top: 5px;
+}
+
+/* 850px-1060px */
+@media (min-width: 850px) and (max-width: 1060px) {
+
+.about_pf h2{
+    font-size: 20px;
+}
+.about_pf h3{
+	font-size: 40px;
+}
+.about_pf p{
+	line-height: 26px;
+    font-size: 15px;
+}
+.skill_content ul{
+    gap: 40px 45px;
+}
+.skill_content ul li img{
+    width: 100px;
+    height: 99px;
+}
+.skill_text h3{
+    font-size: 25px;
+}
+.skill_text p{
+    font-size: 13px;
+}
+.time-schedule::before {
+    left: 151px;
+}
+.time-schedule  li{
+    gap: 83px;
+    margin-bottom: 30px;
+}
+.time-schedule li::before {
+    left: 145px;
+}
+.time-schedule span.time {
+    font-size: 30px;
+    width: 116px;
+}
+.time_cnt h2{
+    font-size: 22px;
+}
+.time_cnt p{
+    margin-top: 3px;
+    font-size: 14px;
+}
+
+.deaf_my{
+    margin-top: 19px;
+}
+.deaf_my img{
+    width: 431px;
+    height: 284px;
+}
+.deaf_my p{
+    line-height: 28px;
+    font-size: 16px;
+}
+.comm{
+    margin-top: 100px;
+}
+.comm h2{
+    font-size: 35px;
+}
+.comm_method{
+    gap: 24px;
+    margin-top: 25px;
+}
+.comm_method h3{
+    font-size: 23px;
+}
+.comm_method img{
+    width: 190px;
+    height: 234px;
+}
+.comm_method ul li p{
+    font-size: 12px;
+    margin-top: 5px;
+}
+}
+
+/* 600px-850px */
+@media (min-width: 600px) and (max-width: 850px) {
+
+ .about_title_b,.skill_title,.career_title,.deaf_title{
+        gap:11px;
+    }
+    .about_title_b h2,.skill_title h2,.career_title h2,.deaf_title h2{
+        font-size: 38px;
+    }
+    .about_title_b h3,.skill_title h3,.career_title h3,.deaf_title h3{
+        font-size: 15px;
+    }
+.about_my{
+    margin-top: 18px;
+    gap: 22px;
+}
+.about_my img{
+    width: 271px;
+    height: 226px;
+}
+
+.about_pf h2{
+    font-size: 12px;
+}
+.about_pf h3{
+	font-size: 25px;
+}
+.about_pf p{
+    line-height: 19px;
+    font-size: 10px;
+}
+.skill{
+    margin-top: 90px;
+}
+.skill_content{
+    margin-top: 26px;
+}
+.skill_content ul{
+    gap: 40px 45px;
+    display: block;
+}
+.skill_content ul li{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.skill_content ul li img{
+    width: 70px;
+    height: 70px;
+}
+.skill_text h3{
+    font-size: 25px;
+}
+.skill_text p{
+    font-size: 13px;
+}
+.career{
+    margin-top: 90px;
+}
+.time-schedule{
+    margin-top: 27px;
+}
+.time-schedule::before {
+    left: 115px;
+    width: 2px;
+}
+.time-schedule  li{
+    gap: 69px;
+    margin-bottom: 17px;
+}
+.time-schedule li::before {
+    left: 111px;
+    top: 16px;
+    width: 10px;
+    height: 10px;
+}
+.time-schedule span.time {
+    font-size: 23px;
+    width: 84px;
+}
+.time_cnt h2{
+    font-size: 15px;
+}
+.time_cnt p{
+    margin-top: 4px;
+    font-size: 11px;
+}
+
+.deaf_my{
+    margin-top: 18px;
+    gap: 22px;
+    }
+.deaf_my img{
+    width: 271px;
+    height: 226px;
+}
+.deaf_my p{
+    line-height: 20px;
+    font-size: 12px;
+}
+.comm{
+    margin-top: 50px;
+}
+.comm h2{
+    font-size: 25px;
+}
+.comm_method{
+    gap: 13px;
+    margin-top: 25px;
+}
+.comm_method h3{
+    font-size: 18px;
+}
+.comm_method img{
+    width: 136px;
+    height: 160px;
+}
+.comm_method ul li p{
+    font-size: 12px;
+    margin-top: 5px;
+}
+}
+
+/* 300px-600px */
+@media (min-width : 300px) and (max-width : 600px) {
+
+.about_content{
+    padding: 0px 25px 0px 25px;
+}
+
+ .about_title_b,.skill_title,.career_title,.deaf_title{
+        gap: 8px;
+    }
+    .about_title_b h2,.skill_title h2,.career_title h2,.deaf_title h2{
+        font-size: 30px;
+    }
+    .about_title_b h3,.skill_title h3,.career_title h3,.deaf_title h3{
+        font-size: 12px;
+    }
+.about_my{
+    display: block;
+    margin-top: 15px;
+    text-align: center;
+}
+.about_my img{
+    width: 338px;
+    height: 223px;
+}
+.about_pf{
+    margin-top: 20px;
+    text-align: start;
+}
+.about_pf h2{
+    font-size: 13px;
+}
+.about_pf h3{
+	font-size: 25px;
+}
+.about_pf p{
+    line-height: 18px;
+    font-size: 12px;
+}
+.skill{
+    margin-top: 50px;
+    padding: 0px 25px 0px 25px;   
+}
+.skill_content{
+    margin-top: 21px;
+}
+.skill_content ul{
+    gap: 40px 45px;
+    display: block;
+}
+.skill_content ul li{
+    width: 100%;
+    margin-bottom: 25px;
+    gap: 16px;
+}
+.skill_content ul li img{
+    width: 50px;
+    height: 50px;
+}
+.skill_text h3{
+    font-size: 17px;
+}
+.skill_text p{
+    font-size: 10px;
+    margin: 0px;
+}
+.career{
+    margin-top: 50px;
+    padding: 0px 25px 0px 25px;  
+}
+.time-schedule{
+    margin-top: 15px;
+}
+.time-schedule::before {
+    left: 83px;
+    width: 2px;
+}
+.time-schedule  li{
+    gap: 37px;
+    margin-bottom: 12px;
+}
+.time-schedule li::before {
+    left: 80px;
+    top: 7px;
+    width: 8px;
+    height: 8px;
+}
+.time-schedule span.time {
+    font-size: 18px;
+    width: 62px;
+}
+.time_cnt h2{
+    font-size: 11px;
+}
+.time_cnt p{
+    margin-top: 1px;
+    font-size: 9px;
+}
+.deaf{
+     margin-top: 50px;
+    padding: 0px 25px 0px 25px; 
+}
+
+.deaf_my{
+    display: block;
+    margin-top: 15px;
+    text-align: center;
+    }
+.deaf_my img{
+    width: 338px;
+    height: 223px;
+}
+.deaf_my p{
+    line-height: 18px;
+    font-size: 12px;
+     text-align: start;
+     margin-top: 2px;
+}
+.comm{
+    margin-top: 35px;
+}
+.comm h2{
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+.comm_method{
+    margin-top: 11px;
+    display: block;
+}
+.comm_method_1,.comm_method_2,.comm_method_3{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.comm_method h3{
+    font-size: 18px;
+}
+.comm_method img{
+    width: 136px;
+    height: 97px;
+}
+.comm_method ul li p{
+    font-size: 12px;
+    margin-top: 1px;
+    text-align: left;
+}
+}
+

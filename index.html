@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="永山優美香のポートフォリオウェブサイト">
+    <title>Yumika Nagayama</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/top.css">
+      <!--  googleアイコン、フォント -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
+      <!--  ファビコン -->
+    <link href="./img/favicon.ico" rel="icon" type="image/x-icon">
+</head>
+<body>
+    <!--  ヘッダー -->
+   <header class="header">
+      <div class="header_inner">
+         <h1 class="header_title header-title">
+            <a href="./index.html">
+               <img src="./img/top/log.png" alt="トップのアイコン" width="100">
+            </a>
+         </h1>
+         <nav class="header_nav nav" id="js-nav">
+            <ul class="nav_items nav-items">
+               <li class="nav-tiems_item"><a href="./about.html">About</a></li>
+               <li class="nav-tiems_item"><a href="#work">Work</a></li>
+            </ul>
+         </nav>
+         <button class="header_hamburger hamburger" id="js-hamburger" >
+            <span></span>
+            <span></span>
+            <span></span>
+         </button>
+      </div>
+  </header>
+  <main class="main">
+     <section class="top">
+      <div id="slide">
+         <ul>
+            <li><img src="./img/top/top_1.png" alt="上高地" ></li>
+            <li><img src="./img/top/top_2.png"  alt="白川郷"></li>
+            <li><img src="./img/top/top_3.png"  alt="下田港"></li>
+            <li><img src="./img/top/top_4.png"  alt="小豆島の夕焼け"></li>
+            <li><img src="./img/top/top_5.png"  alt="桜並木"></li>
+         </ul>
+      </div>
+      <div id="button">
+         <ul>
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li> 
+            <li><a href="#">5</a></li>
+         </ul>
+      </div>
+        <h2>Yumika  Nagayama</h2>
+     </section>
+
+    		<section class="scroll_fadein fadein_animation_start">
+			<section class="about">
+			<div class="about_title">
+				<h2>About</h2>
+				<h3>私について</h3>
+				</div>
+				<p>デザインを通して、国籍・年齢・障がいの有無を問わず、誰もが便利でより良い生活を送れる社会を支えるデザイナーを目指しています。
+                    ユーザーが何を求め、何に困り、何に喜びを感じているのかを丁寧に理解しながら、ニーズや課題に向き合い、WEBサービスづくりに取り組んでいきたいと考えています。
+                </p>
+                <div class="aboue_btn">
+                   <a href="./about.html">MORE</a>	
+                </div>
+			</section>
+			<section id="work" class="work">
+			<div class="work_title">
+				<h2>Works</h2>
+				<h3>制作物</h3>
+				</div>
+				<section class="choice">
+				<div class="btn">
+					<a href="#" class="all" data-filter="all">ALL</a>
+					<a href="#" class="web" data-filter="web">WEB</a>
+					<a href="#" class="flyer" data-filter="flyer">FLYER</a>
+					<a href="#" class="Design" data-filter="Design">DESIGN</a>
+				</div>
+				</section>
+				<section class="work_content">
+					<ul class="list">
+					<li class="web animate" data-category="web">
+                        <div class="sample_box">
+                        <a href="portfolio.html">
+                        <img src="./img/work/web/portfolio/portfolio_mock_a.png" alt="portfolio" width="100">
+                        </a>
+                        </div>
+                        <div>
+                            <h2>Portfolio</h2>
+                            <p>Website | 自主制作</p>
+                        </div>
+                    </li>
+                    <li class="web animate" data-category="web">
+                        <div class="sample_box">
+                        <a href="./yanase.html">
+                        <img src="./img/work/web/yanase/yanase_mock_a.png" alt="やなせたかし先生フェアLPページ" width="100">
+                        </a>
+                        </div>
+                        <div>
+							<h2>やなせたかし先生フェアLP</h2>
+                            <p>Website | 仕事制作</p>
+                        </div>
+                    </li>
+                    <li class="web animate" data-category="web">
+                        <div class="sample_box">
+                        <a href="./mizuasobi.html">
+                        <img src="./img/work/web/mizuasobi/mizuasobi_mock_a.png" alt="探求水あそびLPページ" width="100">
+                        </a>
+                        </div>
+                        <div>
+							<h2>探求水あそびLP</h2>
+                            <p>Website | 仕事制作</p>
+                        </div>
+                    </li>
+                     <li class="web animate" data-category="web">
+                        <div class="sample_box">
+                        <a href="./reading.html">
+                        <img src="./img/work/web/bookreview/bookreview_mock_a.png" alt="夏の読書感想文入門コラム" width="100">
+                        </a>
+                        </div>
+                        <div>
+							<h2>夏の読書感想文入門コラム</h2>
+                            <p>Website | 仕事制作</p>
+                        </div>
+                    </li>
+                     <li class="web animate" data-category="web">
+                        <div class="sample_box">
+                        <a href="./natutomo.html">
+                        <img src="./img/work/web/natsutomo/natsutomo_mock_a.png" alt="なつのおともだちLPページ" width="100">
+                        </a>
+                        </div>
+                        <div>
+							<h2>なつのおともだちLP</h2>
+                            <p>Website | 仕事制作</p>
+                        </div>
+                    </li>
+                     <li class="web animate" data-category="web">
+                        <div class="sample_box">
+                        <a href="./renewal.html">
+                        <img src="./img/work/web/renewal/renewal_mock_a.png" alt="リニューアル案内LPページ" width="100">
+                        </a>
+                        </div>
+                        <div>
+							<h2>オンラインショップリニューアル<br class="sp">案内LP</h2>
+                            <p>Website | 仕事制作</p>
+                        </div>
+                    </li>
+                    <li class="Design animate" data-category="Design">
+                        <div class="sample_box">
+                        <a href="./amazon_a+_a.html">
+                        <img src="./img/work/design/amazon_a+_a/amazon_a+_a_mock.png" alt="乳幼児保育_top" width="100">
+                        </a>
+                        </div>
+                        <div>
+                            <h2>子どもと一緒につくる保育へ</h2>
+                            <p>Design | 仕事制作</p>
+                        </div>
+                    </li>
+                    <li class="Design animate" data-category="Design">
+                        <div class="sample_box">
+                        <a href="./amazon_a+_b.html">
+                        <img src="./img/work/design/amazon_a+_b/amazon_a+_b_mock.png" alt="乳幼児保育_top" width="100">
+                        </a>
+                        </div>
+                        <div>
+                            <h2>遊びが育つ保育Ⅱ</h2>
+                            <p>Design | 仕事制作</p>
+                        </div>
+                    </li>
+                    <li class="Design animate" data-category="Design">
+                        <div class="sample_box">
+                        <a href="./amazon_a+_c.html">
+                        <img src="./img/work/design/amazon_a+_c/amazon_a+_c_mock.png" alt="乳幼児保育_top" width="100">
+                        </a>
+                        </div>
+                        <div>
+                            <h2>乳幼児保育 (保育ナビブック) </h2>
+                            <p>Design | 仕事制作</p>
+                        </div>
+                    </li>
+                    <li class="Design animate" data-category="Design">
+                        <div class="sample_box">
+                        <a href="./amazon_a+_d.html">
+                        <img src="./img/work/design/amazon_a+_d/amazon_a+_d_mock.png" alt="乳幼児保育_top" width="100">
+                        </a>
+                        </div>
+                        <div>
+                            <h2>新しい指導計画の考え方</h2>
+                            <p>Design | 仕事制作</p>
+                        </div>
+                    </li>
+                    	<li class="Design animate" data-category="Design">
+                        <div class="sample_box">
+                        <a href="./elephant.html">
+                        <img src="./img/work/design/elephant/elephant_mock_a.png" alt="たいそうするゾウバナー" width="100">
+                        </a>
+                        </div>
+                        <div>
+                            <h2>たいそうするゾウバナー</h2>
+                            <p>Design | 仕事制作</p>
+                        </div>
+                    </li>
+                     <li class="Design animate" data-category="Design">
+                        <div class="sample_box">
+                        <a href="./kinderbook.html">
+                        <img src="./img/work/design/kinderbook/Kinderbook_mock_a.png" alt="おうちでキンダーブックバナー" width="100">
+                        </a>
+                        </div>
+                        <div>
+                            <h2>おうちでキンダーブックバナー</h2>
+                            <p>Design | 仕事制作</p>
+                        </div>
+                    </li>
+                    <li class="flyer animate" data-category="flyer">
+                        <div class="sample_box">
+                        <a href="./dadandan.html">
+                        <img src="./img/work/flyer/dadandan/dadandan_mock.png" alt="だ・だ・だ・だだんだんチラシ" width="100">
+                        </a>
+                        </div>
+                        <div>
+                            <h2>だ・だ・だ・だだんだんチラシ</h2>
+                            <p>Flyer | 仕事制作</p>
+                        </div>
+                    </li>
+						<li class="flyer animate" data-category="flyer">
+                        <div class="sample_box">
+                        <a href="./toys.html">
+                        <img src="./img/work/flyer/toys/toys_mock.png" alt="2025-2026 おすすめおもちゃチラシ" width="100">
+                        </a>
+                        </div>
+                        <div>
+                            <h2>フレーベル館おすすめおもちゃチラシ</h2>
+                            <p>Flyer | 仕事制作</p>
+                        </div>
+                    </li>
+                     <li class="flyer animate" data-category="flyer">
+                        <div class="sample_box">
+                        <a href="./subscription.html">
+                        <img src="./img/work/flyer/subscription/subscription_mock.png" alt="保育ナビ年間購読者特典チラシ" width="100">
+                        </a>
+                        </div>
+                        <div>
+                            <h2>保育ナビ年間購読者特典チラシ</h2>
+                            <p>Flyer | 仕事制作</p>
+                        </div>
+                    </li>
+						<li class="flyer animate" data-category="flyer">
+                        <div class="sample_box">
+                        <a href="./exhibition.html">
+                        <img src="./img/work/flyer/exhibition/exhibition_mock.png" alt="熊本展示会_top" width="100">
+                        </a>
+                        </div>
+                        <div>
+                            <h2>2024年度フレーベル展示会チラシ</h2>
+                            <p>Flyer | 仕事制作</p>
+                        </div>
+                    </li>
+					<li class="flyer animate" data-category="flyer">
+                        <div class="sample_box">
+                        <a href="./placemat.html">
+                        <img src="./img/work/flyer/placemat/placemat_mock.png" alt="熊本展示会ランチョンマット風チラシ_top" width="100">
+                        </a>
+                        </div>
+                        <div>
+                            <h2>熊本展示会 ランチョンマット風<br class="sp">チラシ</h2>
+                            <p>Flyer | 仕事制作</p>
+                        </div>
+                    </li>
+                    <li class="flyer animate" data-category="flyer">
+                        <div class="sample_box">
+                        <a href="./seminar.html">
+                        <img src="./img/work/flyer/seminar/seminar_mock.png" alt="保育ナビブック・保育セミナーチラシ" width="100">
+                        </a>
+                        </div>
+                        <div>
+                            <h2>保育ナビブック・保育セミナー<br class="sp">チラシ</h2>
+                            <p>Flyer | 仕事制作</p>
+                        </div>
+                    </li>
+                    <li class="flyer animate" data-category="flyer">
+                        <div class="sample_box">
+                        <a href="./sportsday.html">
+                        <img src="./img/work/flyer/sportsday/sportsday_mock.png" alt="アンパンマン運動会メダルチラシ" width="100">
+                        </a>
+                        </div>
+                        <div>
+                            <h2>アンパンマン運動会メダルチラシ</h2>
+                            <p>Flyer | 仕事制作</p>
+                        </div>
+                    </li>
+                       <li class="flyer animate" data-category="flyer">
+                        <div class="sample_box">
+                        <a href="./tableware.html">
+                        <img src="./img/work/flyer/tableware/tableware_mock.png" alt="期間限定 アンパンマン食器チラシ" width="100">
+                        </a>
+                        </div>
+                        <div>
+                            <h2>期間限定 アンパンマン食器チラシ</h2>
+                            <p>Flyer | 仕事制作</p>
+                        </div>
+                    </li>
+                    <li class="flyer animate" data-category="flyer">
+                        <div class="sample_box">
+                        <a href="./bus.html">
+                        <img src="./img/work/flyer/bus/bus_mock.png" alt="園バスオプションチラシ" width="100">
+                        </a>
+                        </div>
+                        <div>
+                            <h2>園バスオプショチラシ</h2>
+                            <p>Flyer | 仕事制作</p>
+                        </div>
+                    </li>
+   
+                    
+					<li class="web animate" data-category="web">
+                        <div class="sample_box">
+                        <a href="./deafpeace.html">
+                        <img src="./img/work/web/deafpeace/deafpeace_mock_a.png" alt="デフピース_top" width="100">
+                        </a>
+                        </div>
+                        <div>
+							<h2>デフピース(架空)</h2>
+                            <p>Website | 卒業制作</p>
+                        </div>
+                    </li>
+					<li class="web animate" data-category="web">
+                        <div class="sample_box">
+                        <a href="./mito.html">
+                        <img src="./img/work/web/mito/mito_mock_a.png" alt="mito_top" width="100">
+                        </a>
+                        </div>
+                        <div>
+							<h2>Mito(架空)</h2>
+                            <p>Website | 自主制作</p>
+                        </div>
+                    </li>
+					<li class="web animate" data-category="web">
+                        <div class="sample_box">
+                        <a href="./sugutabe.html">
+                        <img src="./img/work/web/sugutabe/sugutabe_mock_a.png" alt="すぐ食べ_top" width="100">
+                        </a>
+                        </div>
+                        <div>
+							<h2>すぐ食べ(架空)</h2>
+                            <p>Website | 中間課題</p>
+                        </div>
+                    </li>
+					</ul>
+				</section>				
+			</section>
+		</section>
+  </main>
+  <footer class="footer">
+    <div class="footer-content">
+       <small class="footer__copyright">
+         ©Yumika Nagayama
+       </small>
+    </div>   
+  </footer>  
+  
+   <!-- JSファイルの読み込み -->
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="./js/main.js" defer></script>
+    <script src="./js/top.js" defer></script>
+</body>
+</html>

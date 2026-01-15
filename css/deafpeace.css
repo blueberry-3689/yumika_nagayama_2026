@@ -1,0 +1,557 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	  margin: 0;
+}
+.main_portfolio{
+	 margin: auto;
+    max-width: 1245px;
+}
+
+/* portfolio トップ*/
+.portfolio{
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	gap:50px;
+	margin-top: 130px;
+    padding: 0px 60px;
+	
+}
+.portfolio img{
+	width: 500px;
+}
+.portfolio_contents{
+	color: #4D4D4D;
+}
+.portfolio_contents h2{
+    font-size: 35px;
+    line-height: 45px;
+    margin: 0;
+    font-family: Noto Sans Kannada;
+}
+.portfolio_contents h3{
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+    margin-top: 5px;
+    color: #707070;
+}
+.portfolio_contents p{
+    font-size: 22px;
+    font-weight: 400;
+    margin: 0;
+    line-height: 35px;
+    padding-bottom: 25px;
+}
+
+/* ボタン　*/
+.portfolio_contents a{
+    background-color: #fff;
+    color: #1A83B2;
+    border: solid 2px #1A83B2;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Noto Sans Kannada;
+    font-weight: bold;
+    font-size: 26px;
+    height: 53px;
+    width: 152px;
+    border-radius: 100vh;
+    text-decoration: none;
+}
+.portfolio_contents a:hover {
+    background-color: #1A83B2;
+    color: #fff;
+    opacity: 0.7;
+}
+
+
+
+/*特徴*/
+.Feature{
+    margin-top: 85px;
+    padding: 0px 60px;
+}
+.Feature_title{
+	display: flex;
+	align-items: center;
+	gap:20px;
+}
+.Feature_title h2{
+    color: #1983B2;
+    font-size: 65px;
+    font-family: Noto Sans Kannada;
+    font-weight: bold;
+    margin: 0;
+}
+.Feature_title h3{
+	color: #707070;
+	font-weight: 500;
+    font-size: 20px;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.Feature_contents{
+	 margin-top: 30px;
+}
+.Feature_sup{
+     color: #4D4D4D;
+}
+.Feature_sup ul {
+	margin: 0;
+	padding: 0;
+}
+.Feature_sup ul li{
+	list-style: none;
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    border-top: solid 1px #E5E5E5;
+    padding: 21px 20px;
+}
+.Feature_sup ul li:last-child {
+    border-bottom: solid 1px #E5E5E5;
+}
+.Feature_sup ul li h2{
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    width: 120px; 
+    flex-shrink: 0;
+}
+.Feature_sup ul li p{
+	margin: 0;
+	font-size: 16px;
+    font-weight: 400;
+}
+
+/*過程*/
+.process{
+    margin-top: 85px;
+    padding: 0px 60px;
+}
+.process_title{
+	display: flex;
+	align-items: center;
+	gap:20px;
+}
+.process_title h2{
+    color: #1983B2;
+    font-size: 65px;
+    font-family: Noto Sans Kannada;
+    font-weight: bold;
+    margin: 0;
+}
+.process_title h3{
+	color: #707070;
+	font-weight: 500;
+    font-size: 20px;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.process_cnt{
+	margin-top: 10px;
+}
+.process_1 h2,.process_2 h2{
+	color: #4D4D4D;
+    font-size: 35px;
+    font-family: Noto Sans Kannada;
+    font-weight: bold;
+    margin: 0;
+}
+.process_1 ul,.process_2 ul{
+	padding: 0;
+    margin: 0;	
+}
+.process_1 ul li,.process_2 ul li{
+	display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 40px;
+    margin-top: 30px;
+}
+.process_1 ul li img,.process_2 ul li img{
+	 width: 200px;
+    object-fit: cover;
+}
+.process_1 ul li h2,.process_2 ul li h2{
+    font-size: 25px;
+    font-weight: 500;
+    color: #4D4D4D;
+	margin: 0;
+}
+.process_1 ul li p,.process_2 ul li p{
+	color: #4D4D4D;
+    font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	margin: 0;
+	padding-top: 10px;
+}
+.process_2{
+    margin-top: 60px;
+}
+
+
+/*point 要点*/
+.point{
+	margin-top: 100px;
+    padding: 0px 60px;
+}
+.point_title{
+	display: flex;
+	align-items: center;
+	gap:20px;
+}
+.point_title h2{
+    color: #1983B2;
+    font-size: 65px;
+    font-family: Noto Sans Kannada;
+    font-weight: bold;
+    margin: 0;
+}
+.point_title h3{
+	color: #707070;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 0;
+    margin-top: 10px;
+    font-weight: bold;
+    margin: 0;
+}
+.point_1{
+	margin-top: 20px;
+}
+.point_1 h2{
+	color: #4D4D4D;
+    font-size: 35px;
+    font-family: Noto Sans Kannada;
+    font-weight: bold;
+    margin: 0;
+	padding-bottom: 20px;
+}
+.point_1_a,.point_1_b{
+	margin-bottom: 45px;
+}
+.point_1_a h3,.point_1_b h3{
+    font-size: 25px;
+    font-weight: 500;
+    color: #4D4D4D;
+	margin: 0;
+}
+.point_1_a p,.point_1_b p{
+	color: #4D4D4D;
+    font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	margin: 0;
+	padding-top: 10px;
+}
+
+.point_2{
+    margin-top: 80px;
+}
+.point_2 h2{
+	color: #4D4D4D;
+    font-size: 35px;
+    font-family: Noto Sans Kannada;
+    font-weight: bold;
+    margin: 0;
+	padding-bottom: 20px;
+}
+.point_2 p{
+    color: #4D4D4D;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 0;
+}
+
+/* 850px-1060px */
+@media (min-width: 850px) and (max-width: 1060px) {
+.portfolio{
+    margin-top: 100px;
+    gap: 25px;
+}
+.portfolio img{
+    width: 305px;
+}
+.portfolio_contents h2{
+    font-size: 22px;
+    line-height: 40px;
+}
+.portfolio_contents h3{
+    font-size: 15px;
+    margin-top: 0px;
+}
+.portfolio_contents p{
+    font-size: 17px;
+    line-height: 25px;
+    padding-bottom: 18px;
+}
+.portfolio_contents a{
+    font-size: 22px;
+    height: 42px;
+    width: 130px;
+}
+.process_1 h2,.process_2 h2{
+   font-size: 30px;
+   padding-bottom: 13px;
+}
+.process_1 ul li p,.process_2 ul li p{
+    padding-top: 0px;
+}
+.point_1 h2,.point_2 h2{
+    font-size: 30px;
+    padding-bottom: 13px;
+}
+.point_1_a{
+    margin-bottom: 30px;
+}
+.point_1_a h3,.point_1_b h3{
+    font-size: 24px;
+}
+.point_1_a p,.point_1_b p{
+    font-size: 15px;
+    line-height: 25px;
+    padding-top: 8px;
+}
+.point_2{
+    margin-top: 45px;
+}
+.point_2 p{
+    font-size: 15px;
+    line-height: 25px;
+    padding-top: 8px;
+}
+}
+
+
+
+
+/* 600px-850px */
+@media (min-width: 600px) and (max-width: 850px) {
+
+ .Feature_title,.process_title,.point_title{
+    gap:11px;
+ }
+ .Feature_title h2,.process_title h2,.point_title h2{
+    font-size: 38px;
+ }
+ .Feature_title h3,.process_title h3,.point_title h3{
+    font-size: 15px;
+ }
+.portfolio{
+    margin-top: 100px;
+    display: block;
+    text-align: center;
+}
+.portfolio img{
+    width: 410px;
+}
+.portfolio_contents{
+    text-align: left;
+    padding-top: 10px;
+}
+.portfolio_contents h2{
+    font-size: 22px;
+    line-height: 40px;
+}
+.portfolio_contents h3{
+    font-size: 15px;
+    margin-top: -3px;
+}
+.portfolio_contents p{
+    font-size: 17px;
+    line-height: 25px;
+    padding-bottom: 18px;
+    margin-top: -8px;
+}
+.portfolio_contents a{
+    font-size: 22px;
+    height: 42px;
+    width: 130px;
+}
+.Feature_contents{
+    display: block;
+    margin-top: 18px;
+}
+.process{
+    margin-top: 85px;
+}
+.process_1 h2,.process_2 h2{
+    font-size: 25px;
+}
+.process_1 ul li,.process_2 ul li{
+    display: block;
+    text-align: center;
+}
+.process_1 ul li img,.process_2 ul li img{
+    width: 155px;
+    object-fit: cover;
+}
+.process_1_text,.process_2_text{
+    text-align: left;
+    margin-top: 15px;
+}
+.process_1 ul li h2,.process_2 ul li h2{
+    font-size: 21px;
+}
+.process_1 ul li p,.process_2 ul li p{
+    font-size: 15px;
+    line-height: 25px;
+    padding-top: 5px;
+}
+.point{
+    margin-top: 85px;
+}
+.point_1{
+    margin-top: 10px;
+}
+.point_1 h2,.point_2 h2{
+    font-size: 26px;
+    padding-bottom: 8px;
+}
+.point_1_a{
+    margin-bottom: 30px;
+}
+.point_1_a h3,.point_1_b h3{
+    font-size: 21px;
+}
+.point_1_a p,.point_1_b p{
+    font-size: 15px;
+    line-height: 25px;
+    padding-top: 5px;
+}
+.point_2{
+    margin-top: 45px;
+}
+.point_2 p{
+    font-size: 15px;
+    line-height: 25px;
+    padding-top: 8px;
+}
+}
+
+
+/* 300px-600px */
+@media (min-width : 300px) and (max-width : 600px) {
+ .Feature_title,.process_title,.point_titl{
+    gap:11px;
+ }
+ .Feature_title h2,.process_title h2,.point_title h2{
+    font-size: 38px;
+ }
+ .Feature_title h3,.process_title h3,.point_title h3{
+    font-size: 15px;
+ }
+.portfolio{
+    margin-top: 50px;
+    display: block;
+    text-align: center;
+    padding: 50px 25px 0px 25px;
+}
+.portfolio img{
+    width: 320px;
+}
+.portfolio_contents{
+    text-align: left;
+    padding-top: 10px;
+}
+.portfolio_contents h2{
+    font-size: 22px;
+    line-height: 40px;
+}
+.portfolio_contents h3{
+    font-size: 15px;
+    margin-top: 1px;
+}
+.portfolio_contents p{
+    font-size: 15px;
+    line-height: 23px;
+    padding-bottom: 14px;
+    margin-top: -8px;
+}
+.portfolio_contents a{
+    font-size: 22px;
+    height: 42px;
+    width: 130px;
+}
+.Feature{
+    padding: 50px 25px 0px 25px;
+    margin-top: 15px;
+}
+.Feature_contents{
+    display: block;
+    margin-top: 18px;
+}
+ .Feature_sup ul li{
+    display: block;
+    padding: 15px 0px;
+ }
+ .Feature_sup ul li p{
+    padding-top: 5px;
+ }
+.process{
+    padding: 50px 25px 0px 25px;
+    margin-top: 15px;
+}
+.process_1 h2,.process_2 h2{
+    font-size: 25px;
+}
+.process_1 ul li,.process_2 ul li{
+    display: block;
+    text-align: center;
+}
+.process_1 ul li img,.process_2 ul li img{
+    width: 155px;
+    object-fit: cover;
+}
+.process_1_text,.process_2_text{
+    text-align: left;
+    margin-top: 15px;
+}
+.process_1 ul li h2,.process_2 ul li h2{
+    font-size: 21px;
+}
+.process_1 ul li p,.process_2 ul li p{
+    font-size: 15px;
+    line-height: 25px;
+    padding-top: 5px;
+}
+.point{
+    margin-top: 15px;
+    padding: 50px 25px 0px 25px;
+}
+.point_1{
+    margin-top: 10px;
+}
+.point_1 h2,.point_2 h2{
+    font-size: 26px;
+    padding-bottom: 8px;
+}
+.point_1_a{
+    margin-bottom: 30px;
+}
+.point_1_a h3,.point_1_b h3{
+    font-size: 21px;
+}
+.point_1_a p,.point_1_b p{
+    font-size: 15px;
+    line-height: 25px;
+    padding-top: 5px;
+}
+.point_2{
+    margin-top: 45px;
+}
+.point_2 p{
+    font-size: 15px;
+    line-height: 25px;
+  
+}
+}
