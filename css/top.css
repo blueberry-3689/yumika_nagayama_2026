@@ -1,6 +1,9 @@
  .sp{
     display: none;
  }
+ body{
+    font-family: Noto Sans Kannada;
+ }
  
  /*トップページ */
 .top{
@@ -143,17 +146,18 @@ transform: translateX(-50px);
     margin-top: 35px;
 }
 .aboue_btn a{
+    display: block;
+    text-align: center;
     background-color: #fff;
     color: #1A83B2;
     border: solid 2px #1A83B2;
     margin: 0;
-    display: flex;
-    justify-content: center;
     align-items: center;
     font-family: Noto Sans Kannada;
     font-weight: bold;
     font-size: 26px;
-    height: 53px;
+    line-height: 50px;
+    height: 50px;
     width: 152px;
     border-radius: 100vh;
     text-decoration: none;
@@ -317,6 +321,7 @@ transform: translateX(-50px);
     .aboue_btn a{
         font-size: 23px;
         height: 48px;
+        line-height: 48px;
         width: 136px;
     }
     .work{
@@ -385,6 +390,7 @@ transform: translateX(-50px);
     .aboue_btn a{
         font-size: 19px;
         height: 41px;
+        line-height: 41px;
         width: 113px;
     }
     .work{
@@ -462,6 +468,7 @@ transform: translateX(-50px);
     .aboue_btn a{
         font-size: 19px;
         height: 41px;
+        line-height: 41px;
         width: 113px;
     }
     .work{

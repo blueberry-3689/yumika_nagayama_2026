@@ -2,6 +2,7 @@
 /* CSS Document */
 body{
 	  margin: 0;
+      font-family: Noto Sans Kannada;
 }
 .main_portfolio{
 	 margin: auto;
@@ -51,16 +52,17 @@ body{
     color: #1A83B2;
     border: solid 2px #1A83B2;
     margin: 0;
-    display: flex;
-    justify-content: center;
+    display: block;
     align-items: center;
     font-family: Noto Sans Kannada;
     font-weight: bold;
     font-size: 26px;
+    line-height: 53px; 
     height: 53px;
     width: 152px;
     border-radius: 100vh;
     text-decoration: none;
+    text-align: center;
 }
 .portfolio_contents a:hover {
     background-color: #1A83B2;
@@ -91,7 +93,6 @@ body{
 	font-weight: 500;
     font-size: 20px;
     margin: 0;
-    margin-top: 10px;
 }
 
 .Feature_contents{
@@ -152,7 +153,6 @@ body{
 	font-weight: 500;
     font-size: 20px;
     margin: 0;
-    margin-top: 10px;
 }
 
 .process_cnt{
@@ -221,7 +221,6 @@ body{
     font-weight: 500;
     font-size: 20px;
     margin: 0;
-    margin-top: 10px;
     font-weight: bold;
     margin: 0;
 }
@@ -297,6 +296,7 @@ body{
 .portfolio_contents a{
     font-size: 22px;
     height: 42px;
+    line-height: 42px;
     width: 110px;
 }
 .Feature_contents{
@@ -364,6 +364,7 @@ body{
 .portfolio_contents a{
     font-size: 22px;
     height: 42px;
+    line-height: 42px;
     width: 110px;
 }
 .Feature_contents{
@@ -438,6 +439,7 @@ body{
 .portfolio_contents a{
     font-size: 22px;
     height: 42px;
+    line-height: 42px;
     width: 110px;
 }
 .Feature{

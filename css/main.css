@@ -68,7 +68,7 @@ opacity: 0.5;
 /*ハンバーガーメニューの線*/
 .hamburger span{
 width: 100%;
-height: 1px;
+height: 2px;
 background-color: #1A83B2;
 position: relative;
 transition: ease .4s;

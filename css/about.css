@@ -1,5 +1,8 @@
 @charset "UTF-8";
 /* CSS Document */
+body{
+   font-family: Noto Sans Kannada;
+}
 .main_about{
     margin: auto;
     max-width: 1245px;
@@ -26,7 +29,6 @@
 	font-weight: 500;
     font-size: 20px;
     margin: 0;
-    margin-top: 10px;
 }
 .about_my{
 	display: flex;
@@ -85,7 +87,6 @@
 	font-weight: 500;
     font-size: 20px;
     margin: 0;
-    margin-top: 10px;
 }
 .skill_content{
 	margin-top: 50px;
@@ -146,7 +147,6 @@
 	font-weight: 500;
     font-size: 20px;
     margin: 0;
-    margin-top: 10px;
 }
 
 /* career タイムライン */
@@ -252,7 +252,6 @@
 	font-weight: 500;
     font-size: 20px;
     margin: 0;
-    margin-top: 10px;
 }
 .deaf_my{
   display: flex;
