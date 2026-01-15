@@ -61,14 +61,13 @@ body{
     font-family: Noto Sans Kannada;
     font-weight: bold;
     font-size: 26px;
-    line-height: 53px; 
     height: 53px;
     width: 152px;
     border-radius: 100vh;
     text-decoration: none;
     text-align: center;
     justify-content: center;
-    -webkit-appearance: none;
+    line-height: 1;
 }
 .portfolio_contents a:hover {
     background-color: #1A83B2;
