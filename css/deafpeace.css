@@ -52,7 +52,7 @@ body{
     color: #1A83B2;
     border: solid 2px #1A83B2;
     margin: 0;
-    display: block;
+    display: flex;
     align-items: center;
     font-family: Noto Sans Kannada;
     font-weight: bold;
@@ -63,6 +63,8 @@ body{
     border-radius: 100vh;
     text-decoration: none;
     text-align: center;
+    justify-content: center;
+    -webkit-appearance: none;
 }
 .portfolio_contents a:hover {
     background-color: #1A83B2;
@@ -296,7 +298,6 @@ body{
 .portfolio_contents a{
     font-size: 22px;
     height: 42px;
-    line-height: 42px;
     width: 130px;
 }
 .process_1 h2,.process_2 h2{
@@ -375,7 +376,6 @@ body{
 .portfolio_contents a{
     font-size: 22px;
     height: 42px;
-    line-height: 42px;
     width: 130px;
 }
 .Feature_contents{
@@ -481,7 +481,6 @@ body{
 .portfolio_contents a{
     font-size: 22px;
     height: 42px;
-    line-height: 42px;
     width: 130px;
 }
 .Feature{
