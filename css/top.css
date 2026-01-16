@@ -54,7 +54,7 @@ display: block;
 width: 14px;
 height: 14px;
 border-radius: 7px;
-background-color: #fff;
+background-color: rgba(255, 255, 255, 0.5);
 position: relative;
 }
 :root {
@@ -134,7 +134,7 @@ transform: translateX(-50px);
 .about p{
     font-size: 24px;
     font-weight: 400;
-    line-height: 36px;
+    line-height: 40px;
     color: #333;
     margin: 0;
     margin-top: 15px;
@@ -326,8 +326,6 @@ transform: translateX(-50px);
     }
     .aboue_btn a{
         font-size: 23px;
-        height: 48px;
-        width: 136px;
         line-height: 1;  
     }
     .work{
@@ -366,8 +364,8 @@ transform: translateX(-50px);
     height: 50vh;
     }
     #button ul li a{
-       width: 7px;
-       height: 7px;
+       width: 10px;
+       height: 10px;
     }
      .top h2{
         font-size: 38px;
@@ -385,8 +383,8 @@ transform: translateX(-50px);
         font-size: 12px;
     }
     .about p{
-        font-size: 12px;
-        line-height: 25px;
+        font-size: 15px;
+        line-height: 27px;
         margin: 0;
         margin-top: 5px;
     }
@@ -395,8 +393,6 @@ transform: translateX(-50px);
     }
     .aboue_btn a{
         font-size: 19px;
-        height: 41px;
-        width: 113px;
         line-height: 1;  
     }
     .work{
@@ -422,11 +418,11 @@ transform: translateX(-50px);
        height: 150px;
     }
 	.work_content ul li h2{
-		font-size: 10px;
+		font-size: 12px;
 		margin: 0;
 	}
 	.work_content ul li p {
-		font-size: 8px;
+		font-size: 10px;
 	}
 
 }
@@ -444,8 +440,8 @@ transform: translateX(-50px);
       aspect-ratio: 17 / 13;
     }
     #button ul li a{
-       width: 7px;
-       height: 7px;
+       width: 10px;
+       height: 10px;
     }
      .top h2{
         font-size: 38px;
@@ -463,8 +459,8 @@ transform: translateX(-50px);
         font-size: 12px;
     }
     .about p{
-        font-size: 12px;
-        line-height: 25px;
+        font-size: 15px;
+        line-height: 27px;
         margin: 0;
         margin-top: 5px;
     }
@@ -473,8 +469,6 @@ transform: translateX(-50px);
     }
     .aboue_btn a{
         font-size: 19px;
-        height: 41px;
-        width: 113px;
          line-height: 1;  
     }
     .work{
@@ -499,11 +493,11 @@ transform: translateX(-50px);
        width: 139px;
     }
 	.work_content ul li h2{
-		font-size: 10px;
+		font-size: 12px;
 		margin: 0;
 	}
 	.work_content ul li p {
-		font-size: 8px;
+		font-size: 10px;
 	}
 
 }

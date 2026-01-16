@@ -57,4 +57,55 @@ $(function () {
 
     startAutoSlide(); // 再開
   });
+
+    // --------------------
+  // スワイプ・ドラッグ操作
+  // --------------------
+  let startX = 0;
+  let endX = 0;
+  const threshold = 50; // これ以上動いたら反応（px）
+
+  // スマホ：タッチ開始
+  $("#slide").on("touchstart", function (e) {
+    startX = e.originalEvent.touches[0].clientX;
+  });
+
+  // スマホ：タッチ終了
+  $("#slide").on("touchend", function (e) {
+    endX = e.originalEvent.changedTouches[0].clientX;
+    handleSwipe();
+  });
+
+  // PC：マウス押下
+  $("#slide").on("mousedown", function (e) {
+    startX = e.clientX;
+  });
+
+  // PC：マウス離す
+  $("#slide").on("mouseup", function (e) {
+    endX = e.clientX;
+    handleSwipe();
+  });
+
+  // スワイプ判定
+  function handleSwipe() {
+    const diff = startX - endX;
+
+    if (Math.abs(diff) < threshold) return;
+
+    clearInterval(timer); // 自動再生を一旦止める
+
+    if (diff > 0) {
+      // 左にスワイプ → 次へ
+      showSlide((currentIndex + 1) % $slides.length);
+    } else {
+      // 右にスワイプ → 前へ
+      showSlide(
+        (currentIndex - 1 + $slides.length) % $slides.length
+      );
+    }
+
+    startAutoSlide(); // 自動再生再開
+  }
+
 });

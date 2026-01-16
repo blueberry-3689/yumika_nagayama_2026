@@ -554,8 +554,8 @@ body{
 	font-size: 25px;
 }
 .about_pf p{
-    line-height: 18px;
-    font-size: 12px;
+    line-height: 27px;
+    font-size: 15px;
 }
 .skill{
     margin-top: 50px;
@@ -574,47 +574,57 @@ body{
     gap: 16px;
 }
 .skill_content ul li img{
-    width: 50px;
-    height: 50px;
+    width: 65px;
+    height: 65px;
 }
 .skill_text h3{
-    font-size: 17px;
+    font-size: 20px;
 }
 .skill_text p{
-    font-size: 10px;
+    font-size: 14px;
     margin: 0px;
 }
 .career{
     margin-top: 50px;
     padding: 0px 25px 0px 25px;  
 }
+
+  .fadeIn {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+  }
 .time-schedule{
     margin-top: 15px;
 }
 .time-schedule::before {
-    left: 83px;
-    width: 2px;
+    left: 10px;
+    width: 3px;
 }
 .time-schedule  li{
-    gap: 37px;
-    margin-bottom: 12px;
+    margin-bottom: 20px;
+    display: block;
+    left: 37px;
+    width: 91%;
 }
 .time-schedule li::before {
-    left: 80px;
+    left: -30px;
     top: 7px;
-    width: 8px;
-    height: 8px;
+    width: 10px;
+    height: 10px;
 }
 .time-schedule span.time {
-    font-size: 18px;
-    width: 62px;
+    font-size: 20px;
+    color: #1983B2;
 }
 .time_cnt h2{
-    font-size: 11px;
+    font-size: 15px;
+    padding-top: 3px;
 }
 .time_cnt p{
-    margin-top: 1px;
-    font-size: 9px;
+    margin-top: 3px;
+    font-size: 13px;
+    line-height: 20px;
 }
 .deaf{
      margin-top: 50px;
@@ -631,8 +641,8 @@ body{
     height: 223px;
 }
 .deaf_my p{
-    line-height: 18px;
-    font-size: 12px;
+    line-height: 27px;
+    font-size: 15px;
      text-align: start;
      margin-top: 2px;
 }
@@ -640,7 +650,7 @@ body{
     margin-top: 35px;
 }
 .comm h2{
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 18px;
 }
 .comm_method{
@@ -652,14 +662,15 @@ body{
     margin-bottom: 50px;
 }
 .comm_method h3{
-    font-size: 18px;
+    font-size: 20px;
 }
 .comm_method img{
     width: 136px;
     height: 97px;
 }
 .comm_method ul li p{
-    font-size: 12px;
+    font-size: 15px;
+    line-height: 27px;
     margin-top: 1px;
     text-align: left;
 }
