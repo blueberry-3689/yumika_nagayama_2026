@@ -42,12 +42,20 @@ body{
     margin-top: 5px;
     color: #707070;
 }
-.portfolio_contents p{
+.portfolio_contents h4{
     font-size: 22px;
     font-weight: 400;
     margin: 0;
     line-height: 35px;
     padding-bottom: 25px;
+}
+.yanase_h4{
+    padding-top: 20px;
+}
+.portfolio_contents p{
+    margin: 0;
+    margin-top: 10px;
+    font-size: 14px;
 }
 
 /* ボタン　*/
@@ -208,7 +216,7 @@ body{
     font-size: 15px;
     margin-top: 0px;
 }
-.portfolio_contents p{
+.portfolio_contents h4{
     font-size: 17px;
     line-height: 25px;
     padding-bottom: 18px;
@@ -272,7 +280,7 @@ body{
     font-size: 15px;
     margin-top: 3px;
 }
-.portfolio_contents p{
+.portfolio_contents h4{
     font-size: 17px;
     line-height: 25px;
     padding-bottom: 18px;
@@ -345,11 +353,19 @@ body{
     font-size: 15px;
     margin-top: 1px;
 }
-.portfolio_contents p{
+.portfolio_contents h4{
     font-size: 15px;
     line-height: 23px;
     padding-bottom: 14px;
     margin-top: -8px;
+}
+.yanase_h4{
+    padding-top: 26px;
+}
+.portfolio_contents p{
+    margin: 0;
+    margin-top: 5px;
+    font-size: 12px;
 }
 .portfolio_contents a{
     font-size: 22px;
