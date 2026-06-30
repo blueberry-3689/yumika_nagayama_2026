@@ -184,10 +184,11 @@ body{
     font-size: 36px;
     font-weight: 500;
     font-family: Noto Sans Kannada;
-    color: #4D4D4D;
-    width: 150px;
+    color: #1983B2;
     text-align: right;
 }
+
+
 
 /*  丸 */
 .time-schedule li::before {
@@ -353,6 +354,7 @@ body{
 .time-schedule span.time {
     font-size: 30px;
     width: 116px;
+    color: #1983B2;
 }
 .time_cnt h2{
     font-size: 22px;
